@@ -1,0 +1,60 @@
+{
+  "@timestamp": {
+    "type": "date"
+  },
+  "DAY_OF_WEEK": {
+    "type": "keyword"
+  },
+  "DISTRICT": {
+    "type": "keyword"
+  },
+  "HOUR": {
+    "type": "long"
+  },
+  "INCIDENT_NUMBER": {
+    "type": "keyword"
+  },
+  "Lat": {
+    "type": "double"
+  },
+  "Location": {
+    "type": "keyword"
+  },
+  "Long": {
+    "type": "double"
+  },
+  "MONTH": {
+    "type": "long"
+  },
+  "OCCURRED_ON_DATE": {
+    "type": "date",
+    "format": "YYYY-MM-dd HH:mm:ss"
+  },
+  "OFFENSE_CODE": {
+    "type": "long"
+  },
+  "OFFENSE_CODE_GROUP": {
+    "type": "keyword"
+  },
+  "OFFENSE_DESCRIPTION": {
+    "type": "text"
+  },
+  "REPORTING_AREA": {
+    "type": "keyword"
+  },
+  "SHOOTING": {
+    "type": "keyword"
+  },
+  "STREET": {
+    "type": "keyword"
+  },
+  "UCR_PART": {
+    "type": "keyword"
+  },
+  "YEAR": {
+    "type": "long"
+  },
+  "location_geo": {
+    "type": "geo_point"
+  }
+}
