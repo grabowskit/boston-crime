@@ -1,0 +1,20 @@
+{
+  "description": "Ingest pipeline created by file structure finder",
+  "processors": [
+    {      
+      "append": {
+        "field": "location_geo",
+        "value": "{{Lat}},{{Long}}"
+      }
+    },
+    {
+      "date": {
+        "field": "OCCURRED_ON_DATE",
+        "timezone": "{{ beat.timezone }}",
+        "formats": [
+          "YYYY-MM-dd HH:mm:ss"
+        ]
+      }
+    }
+  ]
+}
